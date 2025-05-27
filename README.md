@@ -16,5 +16,5 @@ Ni poner opciones no válidas
 # Cómo ejecutar
 abre una terminal y ejecuta el siguiente comando:
 
-´´´ bash
+```bash
 python script1.py
