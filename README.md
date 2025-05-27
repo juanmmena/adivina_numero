@@ -1,20 +1,26 @@
-# Juego adivina el número
-Este es un juego simple en Python en el que el jugador debe adivinar un número dentro de el rango seleccionado
+# Game: Guess the Number!
 
-# Cómo jugar
-1. Selecciona la dificultad (1. (1-10), 2.(1-50), 3. (1-100)
-2. Ingresa un número para intentar adivinar el número generado aleatoriamente
-3. El programa te dará pistas para saber si estás cerca o no, por ejemplo si estás a dos números de diferencia(ya sea más alto o bajo), te saldrá un mensaje diciendo que estás cerca.
-4. Tienes 7 vidas
-5. El juego termina cuando adivinas el número
+This is a simple game written in Python where the player has to guess a number within a selected range.
 
-# Validación
-No permite ingresar números ya ingresados con anterioridad
-Ni poner opciones no válidas
+## How to Play
 
+1. Choose the difficulty level:
+   - 1: Easy (1–10)
+   - 2: Intermediate (1–50)
+   - 3: Hard (1–100)
+2. Enter a number to try to guess the randomly generated number.
+3. The program will give you clues to let you know if you’re close or not. For example, if your guess is within 2 numbers (higher or lower), it will notify you that you're close.
+4. You have 7 attempts.
+5. The game ends when you guess the number or run out of attempts.
 
-# Cómo ejecutar
-abre una terminal y ejecuta el siguiente comando:
+## Validation
+
+- You cannot enter numbers you've already tried.
+- Invalid inputs are not accepted.
+
+## How to Run
+
+Open a terminal and run the following command:
 
 ```bash
 python script1.py
